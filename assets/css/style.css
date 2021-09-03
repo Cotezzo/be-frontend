@@ -557,7 +557,7 @@ input:-ms-input-placeholder {
 
 /* Home Section */
 .home{
-	background:#000220;
+	background:#FFF;
 }
 
 
@@ -576,7 +576,7 @@ input:-ms-input-placeholder {
 	font-size: 20px;
 }
 
-.text{
+.text-home{
 	font-family: 'big_johnregular';
 	line-height: 60px;
 	color:#FFF;
@@ -670,6 +670,7 @@ input:-ms-input-placeholder {
 /* head title */
 .head_title{
     overflow:hidden;
+    color: black;
 }
 
 
@@ -686,7 +687,7 @@ input:-ms-input-placeholder {
 .head_title_rigth p{
 	font-size:18px;
 	font-family: 'open_sanslight';
-	color:#000000;
+    color: black;
 }
 
 .single_whatido_img img{
@@ -704,12 +705,14 @@ input:-ms-input-placeholder {
 }
 
 .competenza p {
-    padding: 10px;
+    color: black;
 }
 
 .single_whatido h3{
+    margin-top: 10px;
 	font-size:18px;
 	font-family: 'big_johnregular';
+    color: black;
 }
 .single_whatido p{
 	font-size:18px;
@@ -780,7 +783,7 @@ input:-ms-input-placeholder {
 /* contact section */
 .contact{
     padding: 80px 0px 20px 0px;
-	background:#d2eae3;
+    background: #FFF0F0;;
 }
 
 .contact_socail_bookmark{
