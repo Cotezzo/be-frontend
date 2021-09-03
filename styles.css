@@ -1,7 +1,13 @@
-.home-bg {
+body {
     background-color: black;
 }
 
-.home-text {
+h1 {
     color: white;
 }
+
+/*
+element 
+.class
+#id
+*/
