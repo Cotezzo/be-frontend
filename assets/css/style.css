@@ -557,7 +557,7 @@ input:-ms-input-placeholder {
 
 /* Home Section */
 .home{
-	background:#FAD000;
+	background:#000220;
 }
 
 
@@ -565,15 +565,25 @@ input:-ms-input-placeholder {
 	padding-bottom: 30px;
 	top: 90px;
 }
+
 .carousel-caption p{
-	font-size:50px;
+    margin-top: 60px;
+	font-size: 50px;
+}
+
+.carousel-caption h3{
+    margin-top: -40px;
+	font-size: 20px;
+}
+
+.text{
 	font-family: 'big_johnregular';
 	line-height: 60px;
 	color:#FFF;
 }
 
 .carousel-caption .btn_bg {
-    background: url(../images/separetor3.png) no-repeat center center;
+    /* background: url(../images/separetor3.png) no-repeat center center; */
     width: 65%;
     margin: 0 auto;
     position: relative;
@@ -679,18 +689,14 @@ input:-ms-input-placeholder {
 	color:#000000;
 }
 
-.crop-generic {
-    margin-top: -180px;
-}
-
-.crop-generic2 {
-    margin-top: -80px;
-}
-
 .single_whatido_img img{
 	width:200;
 	height:200px;
 }
+
+/* .body-c {
+    background-color: #000000;
+} */
 
 .competenza {
     border-top-left-radius: 9px;
@@ -726,7 +732,7 @@ input:-ms-input-placeholder {
 }
 
 .btn_bg {
-    background: url(../images/separetor3.png) no-repeat center center;
+    /* background: url(../images/separetor3.png) no-repeat center center; */
     width: 65%;
     margin: 0 auto;
     position: relative;
@@ -815,7 +821,7 @@ input:-ms-input-placeholder {
 	display:block;
 }
 .contact .btn_bg {
-    background: url(../images/separetor2.png) no-repeat center center;
+    /* background: url(../images/separetor2.png) no-repeat center center; */
     width: 100%;
     margin: 0 auto;
     position: relative;
