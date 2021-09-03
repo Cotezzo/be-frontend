@@ -669,7 +669,6 @@ input:-ms-input-placeholder {
 	background:#fef9fd;
 	padding:10px 0px;
 }
-.whatido .head_title h2{}
 
 .head_title_rigth {
 	margin: 40px 0px;
@@ -688,6 +687,11 @@ input:-ms-input-placeholder {
 .competenza {
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
+}
+
+.spacing {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .competenza p {
