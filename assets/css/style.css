@@ -525,7 +525,7 @@ input:-ms-input-placeholder {
     background-color: transparent; 
     border-color: transparent; 
 	transition:.6s;
-	margin-top: 16px;
+	margin-top: 1px;
 }
 
 .main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
