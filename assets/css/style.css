@@ -680,20 +680,49 @@ input:-ms-input-placeholder {
 	color:#000000;
 }
 
-.single_whatido{
-	margin-top: 50px;
-}
-
 .single_whatido_img img{
 	width:200;
 	height:200px;
 }
+
+.competenza {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.competenza p {
+    background-color: white;
+    padding: 10px;
+}
+
 .single_whatido h3{
 	font-size:18px;
 	font-family: 'big_johnregular';
 }
 .single_whatido p{
 	font-size:18px;
+}
+
+.software {
+    background-color: blue;
+}
+.software h3 {
+    color: white;
+}
+
+.services {
+    background-color: #fad663;
+}
+.services h3 {
+    color: white;
+}
+
+.arduino {
+    background-color: #5cAcFc;
+}
+
+.arduino h3 {
+    color: white;
 }
 
 /* My Works Section */
