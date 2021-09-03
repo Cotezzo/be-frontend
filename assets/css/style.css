@@ -595,9 +595,9 @@ input:-ms-input-placeholder {
     position: absolute;
     left: 33%;
     top: 136px;
-    background: #fad663;
-    border: 2px solid #000;
-    border-radius: 15px 15px 15px 15px;
+    background: white;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 
@@ -673,6 +673,10 @@ input:-ms-input-placeholder {
     color: black;
 }
 
+.head_title h2 {
+    margin-top: 20px;
+    margin-bottom: -27px;
+}
 
 /* What i do */
 
@@ -856,7 +860,6 @@ input:-ms-input-placeholder {
 
 
 .footer_copyright{
-	overflow:hidden;
 }
 
 .single_copyirgth ul{
