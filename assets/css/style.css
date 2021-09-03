@@ -783,7 +783,9 @@ input:-ms-input-placeholder {
 /* contact section */
 .contact{
     padding: 80px 0px 20px 0px;
-    background: #FFF0F0;;
+    background: #FFF0F0;
+    color: black;
+    text-align: center;
 }
 
 .contact_socail_bookmark{
@@ -836,7 +838,6 @@ input:-ms-input-placeholder {
     position: absolute;
     left: 35%;
     top: -50px;
-    background: #fad663;
     border: 2px solid #000;
     border-radius: 15px 15px 15px 15px;
 }
