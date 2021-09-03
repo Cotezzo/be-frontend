@@ -569,7 +569,7 @@ input:-ms-input-placeholder {
 	font-size:50px;
 	font-family: 'big_johnregular';
 	line-height: 60px;
-	color:#000;
+	color:#FFF;
 }
 
 .carousel-caption .btn_bg {
@@ -679,6 +679,14 @@ input:-ms-input-placeholder {
 	color:#000000;
 }
 
+.crop-generic {
+    margin-top: -180px;
+}
+
+.crop-generic2 {
+    margin-top: -80px;
+}
+
 .single_whatido_img img{
 	width:200;
 	height:200px;
@@ -689,13 +697,7 @@ input:-ms-input-placeholder {
     border-top-right-radius: 9px;
 }
 
-.spacing {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 .competenza p {
-    background-color: white;
     padding: 10px;
 }
 
@@ -705,28 +707,6 @@ input:-ms-input-placeholder {
 }
 .single_whatido p{
 	font-size:18px;
-}
-
-.software {
-    background-color: blue;
-}
-.software h3 {
-    color: white;
-}
-
-.services {
-    background-color: #fad663;
-}
-.services h3 {
-    color: white;
-}
-
-.arduino {
-    background-color: #5cAcFc;
-}
-
-.arduino h3 {
-    color: white;
 }
 
 /* My Works Section */
