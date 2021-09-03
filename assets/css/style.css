@@ -683,12 +683,10 @@ input:-ms-input-placeholder {
 .single_whatido{
 	margin-top: 50px;
 }
-.single_whatido_img{
-	margin-bottom:30px;
-}
+
 .single_whatido_img img{
-	width:130px;
-	height:100px;
+	width:200;
+	height:200px;
 }
 .single_whatido h3{
 	font-size:18px;
