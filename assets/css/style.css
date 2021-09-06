@@ -56,7 +56,7 @@ img {
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    user-drag: none;
+    /* user-drag: none; */
 }
 a,
 a:hover,
@@ -617,7 +617,7 @@ input:-ms-input-placeholder {
 	-webkit-transition: all 500ms ease-in-out 0s;
 	-moz-transition: all 500ms ease-in-out 0s;
 	-ms-transition: all 500ms ease-in-out 0s;
-	-0-transition: all 500ms ease-in-out 0s;
+	/* -0-transition: all 500ms ease-in-out 0s; */
 	transition: all 500ms ease-in-out 0s;
 	width: 45px;
 }
@@ -647,7 +647,7 @@ input:-ms-input-placeholder {
 	-webkit-transition: all 500ms ease-in-out 0s;
 	-moz-transition: all 500ms ease-in-out 0s;
 	-ms-transition: all 500ms ease-in-out 0s;
-	-0-transition: all 500ms ease-in-out 0s;
+	/* -0-transition: all 500ms ease-in-out 0s; */
 	transition: all 500ms ease-in-out 0s;
 	width: 45px;
 }
@@ -725,24 +725,19 @@ input:-ms-input-placeholder {
     max-width: 27%;
 }
 
-.single_whatido_img img{
-	width:200;
-	height:200px;
-}
+
 
 /* .body-c {
     background-color: #000000;
 } */
 
-.competenza {
-    margin-top: 20px;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
+.icons {
+    margin: 20px;
 }
 
-.competenza-imgs {
-    /* margin-left: 65px; */
-    /* width: 170px; */
+.competenza {
+    margin-top: 20px;
+    border-radius: 9px;
 }
 
 .competenza-imgs img{
@@ -751,13 +746,9 @@ input:-ms-input-placeholder {
     height: 58px;
 }
 
-.icons {
-    margin: 20px;
-}
-
 .competenza p {
     color: black;
-    height: 100px;
+    height: 110px;
 }
 
 .single_whatido h3{
@@ -766,8 +757,14 @@ input:-ms-input-placeholder {
 	font-family: 'big_johnregular';
     color: black;
 }
+
 .single_whatido p{
 	font-size:18px;
+}
+
+.single_whatido img{
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
 }
 
 /* My Works Section */
