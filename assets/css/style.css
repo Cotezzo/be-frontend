@@ -747,6 +747,7 @@ input:-ms-input-placeholder {
 	border:1px solid #ddd;
 }
 .single_work img{
+    background-color:bisque;
 	width:100%;
 }
 
@@ -858,7 +859,7 @@ input:-ms-input-placeholder {
 }
 
 .footer-spacing{
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 .single_copyirgth ul{
