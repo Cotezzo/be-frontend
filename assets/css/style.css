@@ -703,6 +703,8 @@ input:-ms-input-placeholder {
 }
 
 .project-paragraph {
+    
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
     margin-top: 15px;
     margin-bottom: 15px;
     width: 100%;
@@ -717,12 +719,15 @@ input:-ms-input-placeholder {
     
     padding: 20px;
     float:left;
-    width: 60%;
+    width: 70%;
 }
 
 .project-paragraph-img {
     float: right;
     max-width: 27%;
+    height: auto;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 
