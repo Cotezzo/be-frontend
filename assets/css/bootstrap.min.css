@@ -2106,7 +2106,7 @@ output{
     opacity:1
 }
 textarea.form-control{
-    height:auto
+    height: 70px;
 }
 input[type=search]{
     -webkit-appearance:none

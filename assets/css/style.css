@@ -704,29 +704,26 @@ input:-ms-input-placeholder {
 }
 
 .project-paragraph {
-    margin-top: 30px;
-    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: 100%;
     background-color: #FFF0F0;
     border-radius: 9px;
     vertical-align: middle;
     display: inline-block;
+    color: black;
 }
 
 .project-paragraph-text {
+    
+    padding: 20px;
     float:left;
     width: 60%;
 }
 
 .project-paragraph-img {
     float: right;
-    
-    display: block;
     max-width: 27%;
-    /* max-width:230px; */
-    /* max-height:95px; */
-    width: auto;
-    height: auto;
 }
 
 .single_whatido_img img{
