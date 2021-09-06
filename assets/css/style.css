@@ -739,12 +739,24 @@ input:-ms-input-placeholder {
     border-top-right-radius: 9px;
 }
 
+.competenza-imgs {
+    /* margin-left: 65px; */
+    /* width: 170px; */
+}
+
+.competenza-imgs img{
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+}
+
 .icons {
     margin: 20px;
 }
 
 .competenza p {
     color: black;
+    height: 140px;
 }
 
 .single_whatido h3{
