@@ -735,6 +735,7 @@ input:-ms-input-placeholder {
 } */
 
 .competenza {
+    margin-top: 20px;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
 }
@@ -745,9 +746,9 @@ input:-ms-input-placeholder {
 }
 
 .competenza-imgs img{
-    padding: 5px;
-    width: 60px;
-    height: 60px;
+    padding: 3px;
+    width: 58px;
+    height: 58px;
 }
 
 .icons {
@@ -756,7 +757,7 @@ input:-ms-input-placeholder {
 
 .competenza p {
     color: black;
-    height: 140px;
+    height: 100px;
 }
 
 .single_whatido h3{
