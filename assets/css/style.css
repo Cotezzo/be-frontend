@@ -11,7 +11,7 @@ Author URI: http://bootstrapthemes.co
    
 html,
 body {
-    background-color: #fef9fd;
+    /* background-color: #fef9fd; */
     font-size: 15px;
     color: #565656;
     width: 100%;
@@ -901,6 +901,10 @@ input:-ms-input-placeholder {
     top: -50px;
     border: 1px solid #000;
     border-radius: 5px;
+}
+
+.project-spacing {
+    margin-top: 60px;
 }
 
 .footer-spacing{
