@@ -857,9 +857,8 @@ input:-ms-input-placeholder {
     border-radius: 5px;
 }
 
-
-
-.footer_copyright{
+.footer-spacing{
+    margin-top: 300px;
 }
 
 .single_copyirgth ul{
