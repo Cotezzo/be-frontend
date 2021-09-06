@@ -513,8 +513,6 @@ input:-ms-input-placeholder {
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-color: #fff;
-	color:#ffd600;
-	
 }
 
 .main_menu_bg{
@@ -527,13 +525,13 @@ input:-ms-input-placeholder {
 	margin-top: 1px;
 }
 
-.main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+.main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-nav>i>a:hover, .navbar-default .navbar-nav>li>a:focus{
 	color:#fff;
 	background-color:transparent;
 }
  
 .menu-scroll.main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color:#ffd600;
+	color:white;
 	background-color:transparent;
 }
 
@@ -674,7 +672,6 @@ input:-ms-input-placeholder {
 }
 
 .head_title h2 {
-    margin-top: 20px;
     margin-bottom: -27px;
 }
 
@@ -702,8 +699,11 @@ input:-ms-input-placeholder {
     color: black;
 }
 
+.project-align {
+    text-align: left;
+}
+
 .project-paragraph {
-    
     box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
     margin-top: 15px;
     margin-bottom: 15px;
@@ -730,14 +730,17 @@ input:-ms-input-placeholder {
     border-bottom-right-radius: 9px;
 }
 
-
-
-/* .body-c {
-    background-color: #000000;
-} */
-
 .icons {
     margin: 20px;
+}
+
+.icons-fix {
+    height: 50px;
+    margin-top: -13px;
+}
+
+.icons-fix a {
+    color: inherit;
 }
 
 .competenza {
@@ -782,7 +785,7 @@ input:-ms-input-placeholder {
 	overflow:hidden;
 }
 .main_myworks_content{
-	margin-top:80px;
+	margin-top:20px;
 }
 .single_work_colum{
 	padding:0;
@@ -901,18 +904,20 @@ input:-ms-input-placeholder {
 }
 
 .footer-spacing{
-    margin-top: 100px;
+    margin-top: 10px;
+    width: 60%;
+    padding: 10px;
 }
 
-.single_copyirgth ul{
+.single_copyrigth ul{
 	margin:0;
 	padding:0;
 	list-style:none;
 }
-.single_copyirgth ul li{
+.single_copyrigth ul li{
 	display:inline-block;
 }
-.single_copyirgth ul li a{
+.single_copyrigth ul li a{
 	display: block;
     padding:10px;
     color: #000;
@@ -922,11 +927,11 @@ input:-ms-input-placeholder {
 	border-radius:10px;
 	transition:.5s;
 }
-.single_copyirgth ul li a:hover{
-	color:#ffd600;
+.single_copyrigth ul li a:hover{
+	color: white;
 }
 
-.single_copyirgth p{
+.single_copyrigth p{
 	margin-top:10px;
 }
 
