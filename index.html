@@ -1,5 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltf"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en" dir="ltf"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" dir="ltf"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" dir="ltf"> <!--<![endif]-->
+<html class="no-js" lang="en" dir="ltf">
 
 <head>
 	<meta charset="utf-8">
@@ -41,16 +45,28 @@
 	<!-- NAVBAR -->
 	<header id="main_menu" class="header">
 		<div class="main_menu_bg navbar-fixed-top">
-			<nav class="container navbar navbar-default container-fluid">
-				<ul class="nav navbar-nav">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#myprojects">Projects</a></li>
-					<li><a href="#contact">Contact me</a></li>
-				</ul>
-				<div class="icons-fix">
-					<a href="https://github.com/Cotezzo"><i class="fa fa-github fa-2x icons"></i></a>
-					<a href="mailto:valerio.tatulli@bestengage.it"><i class="fa fa-envelope fa-2x icons"></i></a>
+			<nav class="container navbar navbar-default">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 				</div>
+				<div class="collapse navbar-collapse container-fluid" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#myprojects">Projects</a></li>
+						<li><a href="./contact/contact.html">Contact me</a></li>
+					</ul>
+					<div class="icons-fix">
+						<a href="https://github.com/Cotezzo"><i class="fa fa-github fa-2x icons"></i></a>
+						<a href="mailto:valerio.tatulli@bestengage.it"><i class="fa fa-envelope fa-2x icons"></i></a>
+					</div>
+				</div>
+
 			</nav>
 		</div>
 	</header>
@@ -70,7 +86,7 @@
 						<p class="text-home">Valerio Tatulli</p>
 						<h5>Based milanese software developer</h5>
 					</div>
-					<img src="assets/images/generic.jfif" alt="...">
+					<img src="assets/images/programming.jfif" alt="A guy programming on different monitors">
 				</div>
 
 				<div class="item">
@@ -80,7 +96,7 @@
 							<a href="./#myprojects" class="btn">Progetti</a>
 						</div>
 					</div>
-					<img src="assets/images/generic2.jfif" alt="...">
+					<img src="assets/images/desk.jfif" alt="A desk with a computer on the right and some books on the left">
 				</div>
 			</div>
 		</div>
@@ -95,13 +111,14 @@
 			</div>
 
 			<div class="head_title_rigth wow fadeInRight" data-wow-duration="3s">
-				<p><b> My name is Valerio. I'm 18 years old and I'm form Milan, Italy. I'm working as a software
-						developer, but I don't really have long-term plans besides learning.<br><br>
+				<p> My name is Valerio. I'm 18 years old and I'm form <strong>Milan</strong>, Italy. I'm working as a
+					<strong>software developer</strong>, but I don't really have long-term plans besides
+					learning.<br><br>
 
-						My knowledge is not limited to what I learnt at school, since I invest a big chunk of my free
-						time studying and creating new projects that space between several fields.<br><br>
+					My knowledge is not limited to what I learnt at school, since I invest a big chunk of my free
+					time studying and creating new <strong>projects</strong> that space between several fields.<br><br>
 
-						I also love drawing and I used to play some piano.</b><br><br>
+					I also love drawing and I used to play some piano.<br><br>
 				</p>
 			</div>
 		</div>
@@ -113,18 +130,18 @@
 		<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
 			<div class="competenza">
 				<div class="single_whatido">
-					<img src="assets/images/software2.webp" alt="" />
+					<img src="assets/images/software.webp" alt="A drawing of a computer and some tabs" />
 					<h3>Software 💻</h3>
 				</div>
 				<p>Creation of several applications and good knowledge of object oriented programming, data & file
 					management and software development & versioning dynamics.</p>
 				<div class="competenza-imgs">
-					<img src="assets/images/icons/icons8-java-96.png">
-					<img src="assets/images/icons/icons8-python-96.png">
-					<img src="assets/images/icons/icons8-c++-96.png">
-					<img src="assets/images/icons/icons8-javascript-96.png">
-					<img src="assets/images/icons/icons8-typescript-96.png">
-					<img src="assets/images/icons/icons8-git-96.png">
+					<img src="assets/images/icons/icons8-java-96.png" alt="Java icon">
+					<img src="assets/images/icons/icons8-python-96.png" alt="Python icon">
+					<img src="assets/images/icons/icons8-c++-96.png" alt="C++ icon">
+					<img src="assets/images/icons/icons8-javascript-96.png" alt="Javascript icon">
+					<img src="assets/images/icons/icons8-typescript-96.png" alt="TypeScript icon">
+					<img src="assets/images/icons/icons8-git-96.png" alt="Git icon">
 				</div>
 			</div>
 		</div>
@@ -132,19 +149,19 @@
 		<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="3s">
 			<div class="competenza">
 				<div class="single_whatido">
-					<img src="assets/images/services2.jpg" alt="" />
+					<img src="assets/images/flying.jpg" alt="A guy typing on a computer while falling in the sky" />
 					<h3>Services 🛰️</h3>
 				</div>
 				<p>Web development mostly oriented to backend, with use of many different enviroments and frameworks.
 					Configuration and setup of servers, implementation of services and structures over the internet.
 				</p>
 				<div class="competenza-imgs">
-					<img src="assets/images/icons/icons8-nodejs-96.png">
-					<img src="assets/images/icons/icons8-spring-logo-96.png">
-					<img src="assets/images/icons/icons8-angularjs-96.png">
-					<img src="assets/images/icons/icons8-mongodb-96.png">
-					<img src="assets/images/icons/icons8-docker-96.png">
-					<img src="assets/images/icons/icons8-kubernetes-96.png">
+					<img src="assets/images/icons/icons8-nodejs-96.png" alt="Node.js icon">
+					<img src="assets/images/icons/icons8-spring-logo-96.png" alt="Spring icon">
+					<img src="assets/images/icons/icons8-angularjs-96.png" alt="Angular icon">
+					<img src="assets/images/icons/icons8-mongodb-96.png" alt="MongoDB icon">
+					<img src="assets/images/icons/icons8-docker-96.png" alt="Docker icon">
+					<img src="assets/images/icons/icons8-kubernetes-96.png" alt="Kubernetes icon">
 				</div>
 			</div>
 		</div>
@@ -152,18 +169,18 @@
 		<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="4s">
 			<div class="competenza">
 				<div class="single_whatido">
-					<img src="assets/images/arduino2.jpg" alt="" />
+					<img src="assets/images/PCB.jpg" alt="Picture of a printed circuit board" />
 					<h3>Extra 💡</h3>
 				</div>
 				<p>Development of simple Arduino firmwares and circuits, random stuff with Raspberry Pi and Linux
 					operating systems, deep theoretical knowledge of computers, networks, blockchain and more.</p>
 				<div class="competenza-imgs">
-					<img src="assets/images/icons/icon-processing.png">
-					<img src="assets/images/icons/icons8-windows-10-96.png">
-					<img src="assets/images/icons/icons8-linux-96.png">
-					<img src="assets/images/icons/icons8-raspberry-pi-96.png">
-					<img src="assets/images/icons/icons8-arduino-96.png">
-					<img src="assets/images/icons/icons8-bitcoin.gif">
+					<img src="assets/images/icons/icon-processing.png" alt="Processing icon">
+					<img src="assets/images/icons/icons8-windows-10-96.png" alt="Windows 10 icon">
+					<img src="assets/images/icons/icons8-linux-96.png" alt="Linux icon">
+					<img src="assets/images/icons/icons8-raspberry-pi-96.png" alt="Raspberry Pi icon">
+					<img src="assets/images/icons/icons8-arduino-96.png" alt="Arduino icon">
+					<img src="assets/images/icons/icons8-bitcoin.gif" alt="Spinning bitcoin gif">
 				</div>
 			</div>
 		</div>
@@ -181,22 +198,22 @@
 			<div class="main_myworks_content text-center">
 				<div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="1.5s">
 					<div class="single_work">
-						<a href="./projects/python.html"><img src="assets/images/opencv.png" alt="" /></a>
+						<a href="./projects/python.html"><img src="assets/images/opencv.png" alt="OpenCV logo" /></a>
 					</div>
 				</div>
 				<div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="2s">
 					<div class="single_work">
-						<a href="./projects/discordjs.html"><img src="assets/images/discordjs.png" alt="" /></a>
+						<a href="./projects/discordjs.html"><img src="assets/images/discordjs.png" alt="Discord.js logo" /></a>
 					</div>
 				</div>
 				<div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="2.5s">
 					<div class="single_work">
-						<a href="./projects/docker.html"><img src="assets/images/docker.jpg" alt="" /></a>
+						<a href="./projects/docker.html"><img src="assets/images/docker.jpg" alt="Docker's whale with green boxes on its back and the node.js logo" /></a>
 					</div>
 				</div>
 				<div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="3s">
 					<div class="single_work">
-						<a href="./projects/angular.html"><img src="assets/images/angular.jpg" alt="" /></a>
+						<a href="./projects/angular.html"><img src="assets/images/angular.jpg" alt="Angular logo" /></a>
 					</div>
 				</div>
 			</div>
@@ -206,9 +223,6 @@
 
 	<!-- FOOTER -->
 	<div class="contact container footer-spacing">
-		<div class="btn_bg">
-			<a href="./contact/contact.html" class="btn"><b>Let's get in touch!</b></a>
-		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="3s">
 			<div class="single_copyrigth text-left">
 				<p>Copyright 2021 &copy; by valerio.tatulli@bestengage.it</p>
@@ -220,7 +234,7 @@
 				<ul class="navbar-right">
 					<li class="active"><a href="#home">Home</a></li>
 					<li><a href="#myprojects">Projects</a></li>
-					<li><a href="#contact">Contact me</a></li>
+					<li><a href="./contact/contact.html">Contact me</a></li>
 				</ul>
 			</div>
 		</div>

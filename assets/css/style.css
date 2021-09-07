@@ -473,34 +473,6 @@ h1 span {
     font-weight: 400;
 }
 
-/*for placeholder changes*/
-
-/*input::-webkit-input-placeholder {
-  color: #CACACA;
-  font-size: 18px;
-}
-input::-moz-placeholder {
-  color: #CACACA;
-  font-size: 18px;
-}
-input:-ms-input-placeholder {
-  color: #CACACA;
-  font-size: 18px;
-}*/
-
-/*for image bg*/
-
-
-/*.img-bg{
-  background: url(../images/home-msg.jpg) no-repeat center top fixed;
-  background-size
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  overflow: hidden;
-}*/
 /* navbar section */
 .menu-scroll {
     padding-top: 0px;
@@ -510,8 +482,8 @@ input:-ms-input-placeholder {
 	left: 0; 
 	right: 0; 
 	z-index: 300;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175); */
     background-color: #fff;
 }
 
@@ -519,10 +491,15 @@ input:-ms-input-placeholder {
 	margin-top:0px;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
+    /* background-color: transparent;  */
+    background-color: white;
     border-color: transparent; 
-	transition:.6s;
-	margin-top: 1px;
+	/* transition:.6s; */
+	margin-top: 0px;
+    
+    width: 100%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
 .main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-nav>i>a:hover, .navbar-default .navbar-nav>li>a:focus{
@@ -894,8 +871,14 @@ input:-ms-input-placeholder {
     position: relative;
     display: inline-block;
     height: 15px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
+
+.btn_bg button {
+    border-radius: 5px;
+    background-color: white;
+}
+
 .contact .btn_bg a{
     position: absolute;
     top: -50px;

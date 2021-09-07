@@ -1,5 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltf"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en" dir="ltf"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" dir="ltf"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" dir="ltf"> <!--<![endif]-->
+<html class="no-js" lang="en" dir="ltf">
 
 <head>
 	<meta charset="utf-8">
@@ -41,16 +45,28 @@
 	<!-- NAVBAR -->
 	<header id="main_menu" class="header">
 		<div class="main_menu_bg navbar-fixed-top">
-			<nav class="container navbar navbar-default container-fluid">
-				<ul class="nav navbar-nav">
-					<li><a href="../#home">Home</a></li>
-					<li><a href="../#myprojects">Projects</a></li>
-					<li><a href="../#contact">Contact me</a></li>
-				</ul>
-				<div class="icons-fix">
-					<a href="https://github.com/Cotezzo"><i class="fa fa-github fa-2x icons"></i></a>
-					<a href="mailto:valerio.tatulli@bestengage.it"><i class="fa fa-envelope fa-2x icons"></i></a>
+			<nav class="container navbar navbar-default">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 				</div>
+				<div class="collapse navbar-collapse container-fluid" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="../#home">Home</a></li>
+						<li><a href="../#myprojects">Projects</a></li>
+						<li><a href="../contact/contact.html">Contact me</a></li>
+					</ul>
+					<div class="icons-fix">
+						<a href="https://github.com/Cotezzo"><i class="fa fa-github fa-2x icons"></i></a>
+						<a href="mailto:valerio.tatulli@bestengage.it"><i class="fa fa-envelope fa-2x icons"></i></a>
+					</div>
+				</div>
+
 			</nav>
 		</div>
 	</header>
@@ -106,22 +122,22 @@
 		<div class="main_myworks_content text-center">
 			<div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="1.5s">
 				<div class="single_work">
-					<a href="./python.html"><img src="../assets/images/opencv.png" alt="" /></a>
+					<a href="./python.html"><img src="../assets/images/opencv.png" alt="OpenCV logo" /></a>
 				</div>
 			</div>
 			<div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="2s">
 				<div class="single_work">
-					<a href="./discordjs.html"><img src="../assets/images/discordjs.png" alt="" /></a>
+					<a href="./discordjs.html"><img src="../assets/images/discordjs.png" alt="Discord.js logo" /></a>
 				</div>
 			</div>
 			<div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="2.5s">
 				<div class="single_work">
-					<a href="./docker.html"><img src="../assets/images/docker.jpg" alt="" /></a>
+					<a href="./docker.html"><img src="../assets/images/docker.jpg" alt="Docker's whale with green boxes on its back and the node.js logo" /></a>
 				</div>
 			</div>
 			<div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="3s">
 				<div class="single_work">
-					<a href="./angular.html"><img src="../assets/images/angular.jpg" alt="" /></a>
+					<a href="./angular.html"><img src="../assets/images/angular.jpg" alt="Angular logo" /></a>
 				</div>
 			</div>
 		</div>
@@ -144,7 +160,7 @@
 				<ul class="navbar-right">
 					<li class="active"><a href="../#home">Home</a></li>
 					<li><a href="../#myprojects">Projects</a></li>
-					<li><a href="../#contact">Contact me</a></li>
+					<li><a href="../contact/contact.html">Contact me</a></li>
 				</ul>
 			</div>
 		</div>
