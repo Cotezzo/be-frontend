@@ -1,3 +1,22 @@
+Personal website portfolio created as an exercise using CSS, HTML, JS starting from a template.
+
+-------------------------------------------------------
+
+###Thanks to...
+
+Normalize.css
+Bootstrap for the template
+Icons8.com for all the icons in the home page
+Fontawesome for the navbar icons
+Unsplash for some of the images used in the home page
+Formspree for the email contact form
+Random people on StackOverflow
+
+-------------------------------------------------------
+
+###Bootstrap template ToS
+
+Boostrap template ToS
 
 == Theme Name: Pink Donut - FREE PSD Template
 
@@ -23,7 +42,7 @@ link back to this site is required, however any credit will be much appreciated.
 
 Prohibitions:
 You do not have the rights to redistribute, resell, lease, license, sublicense or offer 
-files downloaded from http://bootstrapthemes.co to any third party ìas isî or as a separate attachment 
+files downloaded from http://bootstrapthemes.co to any third party ï¿½as isï¿½ or as a separate attachment 
 from any of your work. If you wish to promote my resources on your site, you must link back 
 to the resource page where users can find the download and not directly to the download file.
 
