@@ -1,5 +1,13 @@
 Personal website portfolio created as an exercise using CSS, HTML, JS starting from a template.
 
+index.html is the home page, and can be used to visit the other pages with hyperlinks.
+
+The contact folder contains the "contact me" form that can send emails to me with Formspree.
+
+The projects folder contains 4 html with 4 test pages for projects, structured but not completed.
+
+Assets contains all the stylings, fonts, scripts, images and icons that are used in every page.
+
 -------------------------------------------------------
 
 ## Credits
@@ -9,7 +17,7 @@ Bootstrap for the template
 Icons8.com for all the icons in the home page
 Fontawesome for the navbar icons
 Unsplash for some of the images used in the home page
-Formspree for the email contact form
+Formspree for the working email contact form
 Random people on StackOverflow
 
 -------------------------------------------------------
