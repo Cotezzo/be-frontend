@@ -2,7 +2,7 @@ Personal website portfolio created as an exercise using CSS, HTML, JS starting f
 
 -------------------------------------------------------
 
-###Thanks to...
+## Thanks to...
 
 Normalize.css
 Bootstrap for the template
@@ -14,7 +14,7 @@ Random people on StackOverflow
 
 -------------------------------------------------------
 
-###Bootstrap template ToS
+## Bootstrap template ToS
 
 Boostrap template ToS
 
