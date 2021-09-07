@@ -2,7 +2,7 @@ Personal website portfolio created as an exercise using CSS, HTML, JS starting f
 
 -------------------------------------------------------
 
-## Thanks to...
+## Credits
 
 Normalize.css
 Bootstrap for the template
