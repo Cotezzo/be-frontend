@@ -2,7 +2,7 @@ Personal website portfolio created as an exercise using CSS, HTML, JS starting f
 
 index.html is the home page, and can be used to visit the other pages with hyperlinks.
 
-The contact folder contains the "contact me" form that can send emails to me with Formspree.
+The contact folder contains the "contact me" form that can send emails.
 
 The projects folder contains 4 html with 4 test pages for projects, structured but not completed.
 
